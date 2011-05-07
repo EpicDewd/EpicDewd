@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		308AE2061375D92E009A61DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308AE2051375D92E009A61DE /* Cocoa.framework */; };
+		308AE2101375D92E009A61DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 308AE20E1375D92E009A61DE /* InfoPlist.strings */; };
+		308AE2131375D92E009A61DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 308AE2121375D92E009A61DE /* main.m */; };
+		308AE2161375D92E009A61DE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 308AE2141375D92E009A61DE /* Credits.rtf */; };
+		308AE2191375D92E009A61DE /* EpicDewdAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 308AE2181375D92E009A61DE /* EpicDewdAppDelegate.m */; };
+		308AE21C1375D92E009A61DE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 308AE21A1375D92E009A61DE /* MainMenu.xib */; };
+		308AE2231375D92E009A61DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308AE2051375D92E009A61DE /* Cocoa.framework */; };
+		308AE22B1375D92E009A61DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 308AE2291375D92E009A61DE /* InfoPlist.strings */; };
+		308AE22E1375D92E009A61DE /* EpicDewdTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 308AE22D1375D92E009A61DE /* EpicDewdTests.h */; };
+		308AE2301375D92E009A61DE /* EpicDewdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 308AE22F1375D92E009A61DE /* EpicDewdTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		308AE2241375D92E009A61DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 308AE1F81375D92E009A61DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 308AE2001375D92E009A61DE;
+			remoteInfo = EpicDewd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		308AE2011375D92E009A61DE /* EpicDewd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EpicDewd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		308AE2051375D92E009A61DE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		308AE2081375D92E009A61DE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		308AE2091375D92E009A61DE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		308AE20A1375D92E009A61DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		308AE20D1375D92E009A61DE /* EpicDewd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EpicDewd-Info.plist"; sourceTree = "<group>"; };
+		308AE20F1375D92E009A61DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		308AE2111375D92E009A61DE /* EpicDewd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EpicDewd-Prefix.pch"; sourceTree = "<group>"; };
+		308AE2121375D92E009A61DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		308AE2151375D92E009A61DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		308AE2171375D92E009A61DE /* EpicDewdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EpicDewdAppDelegate.h; sourceTree = "<group>"; };
+		308AE2181375D92E009A61DE /* EpicDewdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EpicDewdAppDelegate.m; sourceTree = "<group>"; };
+		308AE21B1375D92E009A61DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		308AE2221375D92E009A61DE /* EpicDewdTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EpicDewdTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		308AE2281375D92E009A61DE /* EpicDewdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EpicDewdTests-Info.plist"; sourceTree = "<group>"; };
+		308AE22A1375D92E009A61DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		308AE22C1375D92E009A61DE /* EpicDewdTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EpicDewdTests-Prefix.pch"; sourceTree = "<group>"; };
+		308AE22D1375D92E009A61DE /* EpicDewdTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EpicDewdTests.h; sourceTree = "<group>"; };
+		308AE22F1375D92E009A61DE /* EpicDewdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EpicDewdTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		308AE1FE1375D92E009A61DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308AE2061375D92E009A61DE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308AE21E1375D92E009A61DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308AE2231375D92E009A61DE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		308AE1F61375D92E009A61DE = {
+			isa = PBXGroup;
+			children = (
+				308AE20B1375D92E009A61DE /* EpicDewd */,
+				308AE2261375D92E009A61DE /* EpicDewdTests */,
+				308AE2041375D92E009A61DE /* Frameworks */,
+				308AE2021375D92E009A61DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		308AE2021375D92E009A61DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				308AE2011375D92E009A61DE /* EpicDewd.app */,
+				308AE2221375D92E009A61DE /* EpicDewdTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		308AE2041375D92E009A61DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				308AE2051375D92E009A61DE /* Cocoa.framework */,
+				308AE2071375D92E009A61DE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		308AE2071375D92E009A61DE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				308AE2081375D92E009A61DE /* AppKit.framework */,
+				308AE2091375D92E009A61DE /* CoreData.framework */,
+				308AE20A1375D92E009A61DE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		308AE20B1375D92E009A61DE /* EpicDewd */ = {
+			isa = PBXGroup;
+			children = (
+				308AE2171375D92E009A61DE /* EpicDewdAppDelegate.h */,
+				308AE2181375D92E009A61DE /* EpicDewdAppDelegate.m */,
+				308AE21A1375D92E009A61DE /* MainMenu.xib */,
+				308AE20C1375D92E009A61DE /* Supporting Files */,
+			);
+			path = EpicDewd;
+			sourceTree = "<group>";
+		};
+		308AE20C1375D92E009A61DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				308AE20D1375D92E009A61DE /* EpicDewd-Info.plist */,
+				308AE20E1375D92E009A61DE /* InfoPlist.strings */,
+				308AE2111375D92E009A61DE /* EpicDewd-Prefix.pch */,
+				308AE2121375D92E009A61DE /* main.m */,
+				308AE2141375D92E009A61DE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		308AE2261375D92E009A61DE /* EpicDewdTests */ = {
+			isa = PBXGroup;
+			children = (
+				308AE22D1375D92E009A61DE /* EpicDewdTests.h */,
+				308AE22F1375D92E009A61DE /* EpicDewdTests.m */,
+				308AE2271375D92E009A61DE /* Supporting Files */,
+			);
+			path = EpicDewdTests;
+			sourceTree = "<group>";
+		};
+		308AE2271375D92E009A61DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				308AE2281375D92E009A61DE /* EpicDewdTests-Info.plist */,
+				308AE2291375D92E009A61DE /* InfoPlist.strings */,
+				308AE22C1375D92E009A61DE /* EpicDewdTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		308AE2001375D92E009A61DE /* EpicDewd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308AE2331375D92E009A61DE /* Build configuration list for PBXNativeTarget "EpicDewd" */;
+			buildPhases = (
+				308AE1FD1375D92E009A61DE /* Sources */,
+				308AE1FE1375D92E009A61DE /* Frameworks */,
+				308AE1FF1375D92E009A61DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EpicDewd;
+			productName = EpicDewd;
+			productReference = 308AE2011375D92E009A61DE /* EpicDewd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		308AE2211375D92E009A61DE /* EpicDewdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308AE2361375D92E009A61DE /* Build configuration list for PBXNativeTarget "EpicDewdTests" */;
+			buildPhases = (
+				308AE21D1375D92E009A61DE /* Sources */,
+				308AE21E1375D92E009A61DE /* Frameworks */,
+				308AE21F1375D92E009A61DE /* Resources */,
+				308AE2201375D92E009A61DE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				308AE2251375D92E009A61DE /* PBXTargetDependency */,
+			);
+			name = EpicDewdTests;
+			productName = EpicDewdTests;
+			productReference = 308AE2221375D92E009A61DE /* EpicDewdTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		308AE1F81375D92E009A61DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = EpicDewd;
+			};
+			buildConfigurationList = 308AE1FB1375D92E009A61DE /* Build configuration list for PBXProject "EpicDewd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 308AE1F61375D92E009A61DE;
+			productRefGroup = 308AE2021375D92E009A61DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				308AE2001375D92E009A61DE /* EpicDewd */,
+				308AE2211375D92E009A61DE /* EpicDewdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		308AE1FF1375D92E009A61DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308AE2101375D92E009A61DE /* InfoPlist.strings in Resources */,
+				308AE2161375D92E009A61DE /* Credits.rtf in Resources */,
+				308AE21C1375D92E009A61DE /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308AE21F1375D92E009A61DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308AE22B1375D92E009A61DE /* InfoPlist.strings in Resources */,
+				308AE22E1375D92E009A61DE /* EpicDewdTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		308AE2201375D92E009A61DE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		308AE1FD1375D92E009A61DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308AE2131375D92E009A61DE /* main.m in Sources */,
+				308AE2191375D92E009A61DE /* EpicDewdAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		308AE21D1375D92E009A61DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308AE2301375D92E009A61DE /* EpicDewdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		308AE2251375D92E009A61DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 308AE2001375D92E009A61DE /* EpicDewd */;
+			targetProxy = 308AE2241375D92E009A61DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		308AE20E1375D92E009A61DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308AE20F1375D92E009A61DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		308AE2141375D92E009A61DE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308AE2151375D92E009A61DE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		308AE21A1375D92E009A61DE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308AE21B1375D92E009A61DE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		308AE2291375D92E009A61DE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				308AE22A1375D92E009A61DE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		308AE2311375D92E009A61DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		308AE2321375D92E009A61DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		308AE2341375D92E009A61DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EpicDewd/EpicDewd-Prefix.pch";
+				INFOPLIST_FILE = "EpicDewd/EpicDewd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		308AE2351375D92E009A61DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EpicDewd/EpicDewd-Prefix.pch";
+				INFOPLIST_FILE = "EpicDewd/EpicDewd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		308AE2371375D92E009A61DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EpicDewd.app/Contents/MacOS/EpicDewd";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EpicDewdTests/EpicDewdTests-Prefix.pch";
+				INFOPLIST_FILE = "EpicDewdTests/EpicDewdTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		308AE2381375D92E009A61DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EpicDewd.app/Contents/MacOS/EpicDewd";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EpicDewdTests/EpicDewdTests-Prefix.pch";
+				INFOPLIST_FILE = "EpicDewdTests/EpicDewdTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		308AE1FB1375D92E009A61DE /* Build configuration list for PBXProject "EpicDewd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308AE2311375D92E009A61DE /* Debug */,
+				308AE2321375D92E009A61DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308AE2331375D92E009A61DE /* Build configuration list for PBXNativeTarget "EpicDewd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308AE2341375D92E009A61DE /* Debug */,
+				308AE2351375D92E009A61DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		308AE2361375D92E009A61DE /* Build configuration list for PBXNativeTarget "EpicDewdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308AE2371375D92E009A61DE /* Debug */,
+				308AE2381375D92E009A61DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 308AE1F81375D92E009A61DE /* Project object */;
+}
